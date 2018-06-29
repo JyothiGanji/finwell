@@ -143,8 +143,8 @@ var Translations = {
             "label": "Active&sharing",
              "states": [
                 {
-                    
                     "width": 15
+                    
                 }
                 
             ]
