@@ -143,7 +143,7 @@ var Translations = {
             "label": "Active&sharing",
              "states": [
                 {
-                    "cardId": "6dd8eb8e",
+                    
                     "width": 15
                 }
                 
