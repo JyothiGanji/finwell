@@ -108,7 +108,7 @@ var Translations = {
      */
     "ChapterSettings": [
         {
-            "label": "INTRODUCTION",
+            "label": "Introduction",
             "states": [
                 {
                     "cardId": "START",
@@ -117,7 +117,7 @@ var Translations = {
             ]
         },
         {
-            "label": "WHAT'S IT IN FOR YOU",
+            "label": "What's It in For You",
             "states": [
                 {
                     "cardId": "6f3f4533",
@@ -130,7 +130,7 @@ var Translations = {
             ]
         },
         {
-            "label": "PRODUCT INFO",
+            "label": "Product Info",
             "states": [
                 {
                     "cardId": "42bca2b4",
@@ -172,7 +172,7 @@ var Translations = {
             "states": [
                 {
                     "cardId": "260ec23d",
-                    "width":5
+                    "width":10
                 }
                 
             ]
