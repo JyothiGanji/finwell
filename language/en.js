@@ -161,7 +161,7 @@ var Translations = {
             "label": "Questions",
             "states": [
                 {
-                    "cardId": "a0050071",
+                    "cardId": "6dd8eb8e",
                     "width": 15
                 }
                 
