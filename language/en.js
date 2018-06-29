@@ -108,7 +108,7 @@ var Translations = {
      */
     "ChapterSettings": [
         {
-            "label": "Introduction",
+            "label": "INTRODUCTION",
             "states": [
                 {
                     "cardId": "START",
@@ -117,7 +117,7 @@ var Translations = {
             ]
         },
         {
-            "label": "What's it in for you",
+            "label": "WHAT'S IT IN FOR YOU",
             "states": [
                 {
                     "cardId": "6f3f4533",
@@ -130,7 +130,7 @@ var Translations = {
             ]
         },
         {
-            "label": "Product Info",
+            "label": "PRODUCT INFO",
             "states": [
                 {
                     "cardId": "42bca2b4",
@@ -144,7 +144,6 @@ var Translations = {
              "states": [
                 {
                     "width": 15
-                    
                 }
                 
             ]
@@ -153,7 +152,6 @@ var Translations = {
             "label": "pricing",
             "states": [
                 {
-                    "cardId": "e4d79a9d",
                     "width": 15
                 }
                 
@@ -164,7 +162,7 @@ var Translations = {
             "states": [
                 {
                     "cardId": "a0050071",
-                    "width": 10
+                    "width": 15
                 }
                 
             ]
@@ -174,7 +172,7 @@ var Translations = {
             "states": [
                 {
                     "cardId": "260ec23d",
-                    "width":10
+                    "width":5
                 }
                 
             ]
