@@ -36,12 +36,14 @@
 /** Main Styling (for 1080p) **/
 .body {
     background-color: #f0f0f0;
-    font-family: "OpenSans_Regular", Arial;.
+    font-family: "OpenSans_Regular", Arial;
 }
 
 .top-wrapper {
-      background-image: "images/background_tile.jpg";
-   /** background-color: #bababa;**/
+    background-color: #f2f2f2;
+    background-image: url("../images/background_tile.png");
+	 background-repeat: no-repeat;
+    /**background-image: url(https://thumbs.dreamstime.com/b/decorative-red-bow-red-ribbon-black-background-d-realistic-vector-illustration-decorative-red-bow-red-ribbon-black-112149536.jpg);**/
     /**background: linear-gradient(to bottom right, #04c2f2, #8fea6b);**/
 }
 
@@ -162,7 +164,7 @@
 
 .cta__button {
     color: #fff;
-    background-color: #0a0a0a;
+    background-color:#000000;
     border-radius: 0;
     border: 0;
     font-family: Arial;
@@ -185,7 +187,7 @@ border-bottom-right-radius: 6%;
 .cta__button:hover,
 .cta__button:active,
 .focusable.cta__button:focus {
-    background-color: #0a0a0a;
+    background-color: #07070763;
 }
 
 .fullscreen .cta--side .cta__button {
@@ -226,7 +228,7 @@ border-bottom-right-radius: 6%;
     margin-bottom: 25px;
     width: 60px;
     height: 60px;
-    background: url("../images/cta_icons.png") no-repeat;
+    background: url("../images/cta_icons_ie.png") no-repeat;
     background-position: var(--cta-bgX) var(--cta-bgY);
     background-size: 500% 300%;
 }
@@ -264,10 +266,11 @@ border-bottom-right-radius: 6%;
 
 .player {
    /** background-color: #dbdbdb; **/
+   width:80%;
 }
 
 .player__splash {
-    opacity: 0;
+    opacity: 0.5;
     background-color: #000;
     cursor: pointer;
 }
@@ -338,8 +341,8 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline {
-    color: #fff;
-    background-color:#0a0a0a;
+    color:#FFFFFF;
+    background-color:#f0f0f0;
     font-size: 20px;
 }
 
@@ -348,12 +351,12 @@ border-bottom-right-radius: 6%;
 } **/
 
 .timeline__controls {
-    background-color:#0a0a0a;
-    border-color: #dbdbdb;
+    background-color:#000000;
+    border-color: #E7E7E7;
 }
 
 .timeline__button {
-    background-color: #0a0a0a;
+    background-color:#000000;
     cursor: pointer;
 }
 
@@ -374,11 +377,11 @@ border-bottom-right-radius: 6%;
 
 .timeline__button--settings,
 .timeline__button--fullscreen {
-    width: 60px;
+    width: 30px;
 }
 
 .timeline__button--volume {
-    width: 45px;
+    width: 30px;
 }
 
 .timeline__button-icon {
@@ -387,8 +390,8 @@ border-bottom-right-radius: 6%;
 
     display: block;
     margin: 0 auto;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     background: url("../images/timeline_controls.png") no-repeat;
     background-position-y: 50%;
     background-position: var(--timeline-bgX) var(--timeline-bgY);
@@ -414,8 +417,8 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline__button-icon--play {
-    width: 25px;
-    height: 26px;
+    width: 20px;
+    height: 20px;
     background-position-x: calc((100%/26) * 0);
     --timeline-bgX: calc((100%/26) * 0);
 }
@@ -434,7 +437,7 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline__button-icon--skip-forward {
-    margin-left: 8px;
+    margin-left: 0px;
     background-position-x: calc((100%/26) * 3);
     --timeline-bgX: calc((100%/26) * 3);
 }
@@ -534,11 +537,11 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline-progress-hover {
-    background-color: #5e3820;
+    background-color: #089fc3;
 }
 
 .timeline-progress {
-    background-color: #704a1e;
+    background-color: #078bab;
 }
 
 .timeline-chapters--seen {
@@ -567,12 +570,12 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline-volume__bg {
-    background-color: #717171;
+    background-color:#E7E7E7;
     border-radius: 5px;
 }
 
 .timeline-volume__level {
-    background-color: #704a1e;
+    background-color:#fff;
     border-radius: 5px;
 }
 
@@ -584,7 +587,7 @@ border-bottom-right-radius: 6%;
 .timeline-volume__ball:hover,
 .timeline-volume__ball:active,
 .focusable.timeline-volume__ball:focus {
-    background-color: #fff;
+    background-color: #E7E7E7;
 }
 
 .timeline__settings-popout,
@@ -597,7 +600,7 @@ border-bottom-right-radius: 6%;
     padding: 16px;
     width: 220px;
     height: 210px;
-    background-color: #2e2e2e;
+    background-color: #E7E7E7;
     font-size: 17px;
 }
 
@@ -749,13 +752,7 @@ border-bottom-right-radius: 6%;
         line-height: 50px;
         font-size: 20px;
     }
-    .promo--side .promo__image{
-		width:100%;
-		height:100%;
-	    	      
-    margin-top: -597px;
-	}
-    
+
     .cta__icon {
         margin-bottom: 15px;
         width: 25px;
@@ -767,7 +764,7 @@ border-bottom-right-radius: 6%;
     }
 
     .cta--side .cta__button {
-        font-size: 10px;
+        font-size: 16px;
     }
 
     .player__splash-image {
@@ -777,17 +774,17 @@ border-bottom-right-radius: 6%;
     }
 
     .timeline {
-        font-size: 16px;
-        
+        font-size: 12px;
+		width:1189px;
     }
 
     .timeline__button--skip-back,
     .timeline__button--skip-forward {
-        width: 47px;
+        width: 25px;
     }
 
     .timeline__button--play-pause {
-        width: 45px;
+        width: 42px;
     }
 
     .fullscreen .timeline__button-icon {
@@ -853,13 +850,6 @@ border-bottom-right-radius: 6%;
         width: 28px;
         height: 28px;
     }
-	
-	.promo--side .promo__image{
-		width:100%;
-		height:100%;
-		
-    		margin-top: 74px;
-     }
 
     .social--top-right .social__icon {
         margin-right: 4px;
@@ -1000,12 +990,6 @@ border-bottom-right-radius: 6%;
         width: 26px;
         height: 26px;
     }
-	.promo--side .promo__image{
-		width:100%;
-		height:100%;
-		 
-    		margin-top: 38px;
-	}
 
     .social--top-right .social__icon {
         margin-right: 3px;
@@ -1027,8 +1011,8 @@ border-bottom-right-radius: 6%;
 
     .cta__icon {
         margin-bottom: 6px;
-        width: 10px;
-        height: 11px;
+        width: 15px;
+        height: 15px;
     }
 
     .fullscreen .cta__icon {
@@ -1132,11 +1116,6 @@ border-bottom-right-radius: 6%;
     .fullscreen .cta--side .cta__label {
         font-size: 12px;
     }
-	.promo--side .promo__image{
-		width:100%;
-		height:100%;
-	    	   
-	}
 
     .timeline__button--skip-back,
     .timeline__button--skip-forward {
@@ -1169,9 +1148,6 @@ border-bottom-right-radius: 6%;
     .timeline__button-icon--skip-forward {
         margin-left: 4px;
     }
-	.timeline {
-    font-size: 8px;
-}
 
     .timeline-progress-indicator-ball {
         background-color: #fff;
@@ -1241,11 +1217,7 @@ border-bottom-right-radius: 6%;
     .header__logo {
       /**  width: 300px; **/
     }
-.promo--side .promo__image{
-		width:100%;
-		height:100%;
-	    	    
-	}
+
     .player__splash-image {
         margin-top: calc((100% * (9/16)) / 2 - (78px / 2)); /* Calculate the margin-top based on half the video height, minus half the height of the splash icon */
         width: 75px;
@@ -1284,11 +1256,7 @@ border-bottom-right-radius: 6%;
         margin-bottom: 3px;
     }
 }
-.promo--side .promo__image{
-		width:100%;
-		height:100%;
-	    	    
-	}
+
 @media screen and (max-width: 375px) and (orientation: portrait) {
     .timeline__button-icon--skip-forward {
         margin-left: 0px;
@@ -1300,9 +1268,6 @@ border-bottom-right-radius: 6%;
     .cta__icon {
         margin-bottom: 2px;
     }
-		.timeline {
-    font-size: 4px;
-}
 }
 
 /** General rules for devices which don't support the hover state **/
@@ -1318,7 +1283,6 @@ border-bottom-right-radius: 6%;
         background-position-y: 0;
         --social-bgY: 0;
     }
-
 
     .fullscreen .cta--side .cta__button:hover {
         left: -130%;
