@@ -283,7 +283,7 @@ sub {
 }
 
 .promo--side {
-    float: left;
+    float: right;
     width: 270px;
 }
 
