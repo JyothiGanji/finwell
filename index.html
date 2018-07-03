@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Finwell Interactive Video featuring Sara Hughes</title>
+    <title>Responsive Landing Page Template</title>
 
     <meta name="description" content="...">
     <meta property="og:url" content="..." />
@@ -83,11 +83,8 @@
 
 <body class="body">
     <div id="jsTopWrapper" class="top-wrapper top-wrapper--no-cta top-wrapper--no-promo">
-	   
-       
-        <main id="jsMain" class="main">
-		 <header id="jsHeader" class="header">
-            <div class="social social--top social--expanded jsSocialIcons" id="jsSocialIconsTop">
+      
+           <!--<div class="social social--top social--expanded jsSocialIcons" id="jsSocialIconsTop">
                 <a href="#" class="social__icon social__icon--collapse" id="jsSocialIconTopCollapse">
                     <span class="sr-only translate" data-translate="CollapseText">Collapse</span>
                 </a>
@@ -98,24 +95,44 @@
             
             <br class="clearfix" />
 
-            <img class="header__logo" src="./images/logo.png" alt="Logo">
+           
+            <img class="header__logo" src="images/RealTimeLogo.png" alt="Logo">
 
             <br class="clearfix" />
 
             <div class="header__text">
                 <div id="jsHeaderLowBandwidth" class="header__lowbandwidth"></div>
-                <!--<div class="header__preparedfor">
+                <div class="header__preparedfor">
                     <span class="header__preparedfor--text" id="jsPreparedFor">&nbsp;</span>
-                    <span class="header__preparedfor--name" id="jsPreparedForName" data-dict-name="first_name"></span>**/
-                </div>-->
-            </div>
+                    <span class="header__preparedfor--name" id="jsPreparedForName" data-dict-name="first_name"></span>
+                </div>
+            </div>-->
+	   
+                <div class="header__preparedfor">
+                    <span class="header__preparedfor--text" id="jsPreparedFor">&nbsp;</span>
+                    <span class="header__preparedfor--name" id="jsPreparedForName" data-dict-name="first_name"></span>
+                </div>
+            
         </header>
+        
 
-            <div class="cta cta--side jsCtaContainer"></div>
+        <main id="jsMain" class="main">
+		
+            <header id="jsHeader" class="header">
+	   <div  style="margin: 0% 30%;">
+            <img class="header__logo" src="images/RealTimeLogo.png" alt="Logo">
+            <br class="clearfix">
+          </div>
+                
+            <div class="cta cta--side jsCtaContainer" style="    height: 100%;
+    width: 6%;
+    margin-top: 124px;
+"></div>
 
             <div class="player">
-                <div class="player__wrapper">
-                    <div class="player__iframe" id="jsPlayerIframe">
+                <div class="player__wrapper" style="background-color: #0f0f0f ;">
+                    <div class="player__iframe" id="jsPlayerIframe" style="margin-left:5% ;    margin-left: 129px;
+    margin-top: 71px;">
                         {{VIDEO_IFRAME}}
 
                         <div id="jsResumeSplash" class="player__splash">
@@ -126,13 +143,12 @@
                 </div>
             </div>
 
-            <div id="jsPromoContainerDesktop" class="promo promo--side jsPromoContainer"></div>
+            <div id="jsPromoContainerDesktop" class="promo promo--side jsPromoContainer" style="margin: 0px -6px;
+    height: 166px;"></div>
 
             <br class="clearfix" />
 
-            </div>
-        </main>
-		 <div id="jsTimeline" aria-controls="videoPlayerIframe" class="timeline">
+            <div id="jsTimeline" aria-controls="videoPlayerIframe" class="timeline">
                 <div id="jsTimelineCover" class="timeline__cover"></div>
 
                 <div class="timeline__controls timeline__controls--left">
@@ -169,7 +185,7 @@
                     <div id="jsTimelineContainer" class="timeline-chapters"></div>
                 </div>
 
-               
+                <div id="jsTimelineControlsRight" class="timeline__controls timeline__controls--right">
                     <button id="jsSettingsButton" type="button" class="jsTimelineButton timeline__button timeline__button--settings no-focus">
                         <span id="jsSettingsButtonIcon" class="timeline__button-icon timeline__button-icon--settings"></span>
                         <span class="sr-only translate" data-translate="SettingsButtonText">Settings</span>
@@ -323,7 +339,7 @@
                         <span class="sr-only translate" data-translate="VolumeButtonText">Volume</span>
                     </button>
 
-                    <div id="jsVolume" class="timeline-volume" style="display:none">
+                 <!--   <div id="jsVolume" class="timeline-volume">
                         <div id="jsVolumeBar" class="timeline-volume__bg"></div>
                         <div id="jsVolumeLevelContainer" class="timeline-volume__container">
                             <div id="jsVolumeLevel" class="timeline-volume__level">
@@ -336,11 +352,11 @@
                     <button id="jsFullScreenButton" type="button" class="jsTimelineButton timeline__button timeline__button--fullscreen no-focus">
                         <span id="jsFullScreenIcon" class="timeline__button-icon timeline__button-icon--fullscreen"></span>
                         <span class="sr-only translate" data-translate="FullScreenButtonText">Full Screen</span>
-                    </button>
+                    </button>-->
                 </div>
-           
-		 <!-- <div id="jsTimelineControlsRight" class="timeline__controls timeline__controls--right"> -->
-    <!-- </div> -->
+            </div>
+        </main>
+    </div>
 
     <div id="jsBottomWrapper" class="bottom-wrapper bottom-wrapper--no-cta bottom-wrapper--no-promo">
 
