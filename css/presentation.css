@@ -742,27 +742,30 @@ border-bottom-right-radius: 6%;
     text-decoration: none;
 }
 
+
 /** 720p **/
 @media screen and (max-width: 2460px) {
     .header__preparedfor {
         font-size: 14px;
     }
 
+    .header__text {
+        padding:20px 0 10px;
+    }
+
     .fullscreen .cta--side .cta__label {
         line-height: 50px;
         font-size: 20px;
     }
-    .promo--side .promo__image{
-		width:100%;
-		height:100%;
-	    	      
-    
-	}
-    
+
+    .cta--side {
+        height: 720px;
+    }
+
     .cta__icon {
         margin-bottom: 15px;
-        width: 25px;
-        height: 25px;
+        width: 50px;
+        height: 50px;
     }
 
     .fullscreen .cta__icon {
@@ -770,7 +773,7 @@ border-bottom-right-radius: 6%;
     }
 
     .cta--side .cta__button {
-        font-size: 10px;
+        font-size: 24px;
     }
 
     .player__splash-image {
@@ -781,16 +784,12 @@ border-bottom-right-radius: 6%;
 
     .timeline {
         font-size: 16px;
-        
     }
 
     .timeline__button--skip-back,
-    .timeline__button--skip-forward {
-        width: 36px;
-    }
-
+    .timeline__button--skip-forward,
     .timeline__button--play-pause {
-        width: 32px;
+        width: 65px;
     }
 
     .fullscreen .timeline__button-icon {
@@ -805,7 +804,7 @@ border-bottom-right-radius: 6%;
     }
 
     .footer {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .social--top .social__icon,
@@ -847,22 +846,24 @@ border-bottom-right-radius: 6%;
     .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-cc {
         right: 85px;
     }
+
+    .header__logo {
+        height: 50px;
+    }
 }
 
 /** 540p **/
 @media screen and (max-width: 1640px) {
+    .social--bottom {
+        background: #717171 url("../images/background-2.jpg");
+        background-size: cover;
+    }
+
     .social--top .social__icon,
     .fullscreen .social--top .social__icon {
         width: 28px;
         height: 28px;
     }
-	
-	.promo--side .promo__image{
-		width:100%;
-		height:100%;
-		
-    		margin-top: 74px;
-     }
 
     .social--top-right .social__icon {
         margin-right: 4px;
@@ -882,10 +883,14 @@ border-bottom-right-radius: 6%;
         font-size: 18px;
     }
 
+    .cta--side {
+        height: 540px;
+    }
+
     .cta__icon {
         margin-bottom: 10px;
-        width: 20px;
-        height: 20px;
+        width: 40px;
+        height: 40px;
     }
 
     .fullscreen .cta__icon {
@@ -893,7 +898,7 @@ border-bottom-right-radius: 6%;
     }
 
     .cta--side .cta__button {
-        font-size: 10px;
+        font-size: 18px;
     }
 
     .player__splash-image {
@@ -929,17 +934,14 @@ border-bottom-right-radius: 6%;
     }
 
     .timeline__button--skip-back,
-    .timeline__button--skip-forward {
-        width: 57px;
-    }
-
+    .timeline__button--skip-forward,
     .timeline__button--play-pause {
-        width: 51px;
+        width: 50px;
     }
 
     .timeline__button--settings,
     .timeline__button--fullscreen {
-        width: 45px;
+        width: 50px;
     }
 
     .timeline__button--volume {
@@ -999,16 +1001,14 @@ border-bottom-right-radius: 6%;
 
 /** 360p **/
 @media screen and (max-width: 1230px) {
+    .header__text {
+        padding: 10px 0;
+    }
+
     .social--top .social__icon {
         width: 26px;
         height: 26px;
     }
-	.promo--side .promo__image{
-		width:100%;
-		height:100%;
-		 
-    		margin-top: 38px;
-	}
 
     .social--top-right .social__icon {
         margin-right: 3px;
@@ -1028,10 +1028,14 @@ border-bottom-right-radius: 6%;
         font-size: 16px;
     }
 
+    .cta--side {
+        height: 360px;
+    }
+
     .cta__icon {
         margin-bottom: 6px;
-        width: 10px;
-        height: 11px;
+        width: 25px;
+        height: 25px;
     }
 
     .fullscreen .cta__icon {
@@ -1039,7 +1043,7 @@ border-bottom-right-radius: 6%;
     }
 
     .cta--side .cta__button {
-        font-size: 6px;
+        font-size: 12px;
     }
 
     .player__splash-image {
@@ -1084,12 +1088,9 @@ border-bottom-right-radius: 6%;
     }
 
     .timeline__button--skip-back,
-    .timeline__button--skip-forward {
-        width: 38px;
-    }
-
+    .timeline__button--skip-forward,
     .timeline__button--play-pause {
-        width: 34px;
+        width: 30px;
     }
 
     .timeline__button-icon--skip-back {
@@ -1098,6 +1099,11 @@ border-bottom-right-radius: 6%;
 
     .timeline__button-icon--skip-forward {
         margin-left: 4px;
+    }
+
+    .timeline__button--settings,
+    .timeline__button--fullscreen {
+        width: 30px;
     }
 
     .timeline__settings-popout,
@@ -1128,18 +1134,27 @@ border-bottom-right-radius: 6%;
     .timeline--no-volume .timeline__controls--right-no-fs .timeline__settings-cc {
         right: 35px;
     }
+
+    .top-wrapper--no-cta .header, .top-wrapper--no-promo .header {
+        padding: 0;
+    }
+
+    .header__logo {
+        height:40px;
+    }
+
 }
 
 /** Mobile devices **/
 @media screen and (max-width: 820px) {
+    .cta--side.cta--5 .cta__button {
+        margin-right:0;
+        border: none;
+    }
+
     .fullscreen .cta--side .cta__label {
         font-size: 12px;
     }
-	.promo--side .promo__image{
-		width:100%;
-		height:100%;
-	    	   
-	}
 
     .timeline__button--skip-back,
     .timeline__button--skip-forward {
@@ -1172,9 +1187,6 @@ border-bottom-right-radius: 6%;
     .timeline__button-icon--skip-forward {
         margin-left: 4px;
     }
-	.timeline {
-    font-size: 8px;
-}
 
     .timeline-progress-indicator-ball {
         background-color: #fff;
@@ -1203,7 +1215,8 @@ border-bottom-right-radius: 6%;
     }
 
     .bottom-wrapper {
-        background-color: #dbdbdb;
+        background: #717171 url("../images/background-2.jpg");
+        background-size: cover;
     }
 
     .footer__poweredby,
@@ -1215,20 +1228,28 @@ border-bottom-right-radius: 6%;
 
 /** Mobile devices in landscape and tablet devices in portrait **/
 @media screen and (max-width: 820px) {
-    .cta__button {
-       /** border-right: 1px solid #fff;
-        border-bottom: 1px solid #fff; **/
+
+    .header__text {
+        padding: 10px 0;
+    }
+
+    .cta--bottom.cta--5 .cta__button {
+        margin: 1px 0;
+        width: 20%;
+        border: none;
+    }
+
+    .header__logo {
+        width:80%;
+        margin:10px auto 0;
+        float:none;
+        height:40px;
+        background-position: center;
     }
 }
 
 /** Mobile devices in landscape **/
 @media screen and (max-width: 820px) and (orientation: landscape) {
-    .main {
-        -webkit-transition: width 0.5s ease-in-out;
-           -moz-transition: width 0.5s ease-in-out;
-             -o-transition: width 0.5s ease-in-out;
-                transition: width 0.5s ease-in-out;
-    }
 
     .cta--1 .cta__button--button-1,
     .cta--2 .cta__button--button-2,
@@ -1242,34 +1263,32 @@ border-bottom-right-radius: 6%;
 /** Mobile devices in portrait **/
 @media screen and (max-width: 700px) and (orientation: portrait) {
     .header__logo {
-      /**  width: 300px; **/
+        width: 300px;
     }
-.promo--side .promo__image{
-		width:100%;
-		height:100%;
-	    	    
-	}
+
+    .header__text {
+        width:90%;
+        margin:0 auto;
+    }
+
     .player__splash-image {
         margin-top: calc((100% * (9/16)) / 2 - (78px / 2)); /* Calculate the margin-top based on half the video height, minus half the height of the splash icon */
         width: 75px;
         height: 78px;
     }
 
-    .cta__button {
-        border: 1px solid #fff;
-        border-right: 0;
+    .cta--bottom.cta--5 .cta__button {
+        border: 1px solid #0f0f0f;
+        border-right: none;
+        margin: 0;
+    }
+
+    .cta--bottom.cta--5 .cta__button--button-1 {
+        border-left: none;
     }
 
     .fullscreen .cta--side .cta__label {
         font-size: 10px;
-    }
-
-    .cta--1 .cta__button--button-1,
-    .cta--2 .cta__button--button-2,
-    .cta--3 .cta__button--button-3,
-    .cta--4 .cta__button--button-4,
-    .cta--5 .cta__button--button-5 {
-        border-right: 1px solid #fff;
     }
 
     .cta__icon {
@@ -1277,7 +1296,7 @@ border-bottom-right-radius: 6%;
     }
 
     .cta--bottom .cta__button {
-        font-size: 12px;
+        font-size: 15px;
     }
 }
 
@@ -1287,11 +1306,7 @@ border-bottom-right-radius: 6%;
         margin-bottom: 3px;
     }
 }
-.promo--side .promo__image{
-		width:100%;
-		height:100%;
-	    	    
-	}
+
 @media screen and (max-width: 375px) and (orientation: portrait) {
     .timeline__button-icon--skip-forward {
         margin-left: 0px;
@@ -1303,9 +1318,6 @@ border-bottom-right-radius: 6%;
     .cta__icon {
         margin-bottom: 2px;
     }
-		.timeline {
-    font-size: 4px;
-}
 }
 
 /** General rules for devices which don't support the hover state **/
@@ -1321,7 +1333,6 @@ border-bottom-right-radius: 6%;
         background-position-y: 0;
         --social-bgY: 0;
     }
-
 
     .fullscreen .cta--side .cta__button:hover {
         left: -130%;
