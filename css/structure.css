@@ -1,4 +1,6 @@
 /** Global Styling **/
+
+
 * {
     box-sizing: border-box;
 }
@@ -36,10 +38,11 @@ sub {
     display: block;
     margin: 0 auto;
     width: 2460px;
+	height:120px;
 }
 
 .header__logo {
-    padding: 0px;
+    padding: 0px 0px 20px 10px;
     max-width: 100%;
 }
 
@@ -80,7 +83,7 @@ sub {
 .social--top-right {
     right: 0;
     left: auto;
-    padding: 0px 0 0 8px;
+    padding: 20px 0 0 8px;
 }
 
 .fullscreen .social--top-right {
@@ -132,7 +135,7 @@ sub {
     overflow: hidden;
     margin: 0 auto;
     width: 2460px;
-    background-color: white;
+    background-image: url(https://raw.githubusercontent.com/karthik547/RTC_DEMO-RESOLUTION-1080/master/images/background_tile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -154,9 +157,9 @@ sub {
     width: 270px;
     min-height: 1px;
     position: relative;
-    left: 6%;
-    margin-top: 1%;
-    margin-right: -2%;
+    left: 0%;
+    margin-top: 0%;
+    margin-right: 2%;
 }
 
 .fullscreen .cta--side {
@@ -223,7 +226,9 @@ sub {
 }
 
 .cta--side.cta--5 .cta__button {
-    height: 212px;
+    height: 60px;
+    width:67px;
+    margin-left:70%;
 }
 
 .fullscreen .cta--side.cta--5 .cta__button {
@@ -246,7 +251,6 @@ sub {
 
 .player {
     float: left;
-	margin-left:50px;
 }
 
 .fullscreen .player {
@@ -267,11 +271,10 @@ sub {
 
 .player__iframe {
     position: relative;
-	margin-left:0%;
-    width: 80%;
-    height: 80%;
-    top: 4%;
-    left: 13%;
+    width: 73%;
+    height: 72.9%;
+    top: 0%;
+    left: 3%;
     box-shadow: 0 10px 22px -5px black;
 }
 
@@ -285,8 +288,8 @@ sub {
 .promo--side {
     float: right;
     width: 270px;
-	    margin-top: -388px;
-    margin-right: 35px;
+	
+  
 }
 
 .fullscreen .promo--side {
@@ -304,6 +307,7 @@ div.promo__item.promo__item--bottom {
 .promo--side .promo__item {
     width: 100%;
     height: 536px;
+    margin-left: -90%;
 }
 
 .promo--side .promo__item--top {
@@ -326,12 +330,13 @@ div.promo__item.promo__item--bottom {
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
+	    margin-top: 75px;
 }
 
 .timeline {
     position: relative;
     overflow: visible;
-    margin: 0px 519px;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -712,7 +717,7 @@ div.promo__item.promo__item--bottom {
     .header,
     .main,
     .footer {
-        width:1074px;
+        width: 1420px;
     }
 
     .top-wrapper--no-cta .header,
@@ -727,12 +732,12 @@ div.promo__item.promo__item--bottom {
     .top-wrapper--no-cta.top-wrapper--no-promo .header,
     .top-wrapper--no-cta.top-wrapper--no-promo .main,
     .bottom-wrapper--no-cta.bottom-wrapper--no-promo .footer {
-        width: 1080px;
+        width: 1280px;
     }
 
     .cta--side,
     .promo--side {
-        width: 115px;
+        width: 130px;
     }
 
     .cta--side.cta--1 .cta__button {
@@ -752,7 +757,7 @@ div.promo__item.promo__item--bottom {
     }
 
     .cta--side.cta--5 .cta__button {
-        height: 78px;
+        height: 90px;
     }
 
     .promo--side .promo__item {
@@ -764,8 +769,8 @@ div.promo__item.promo__item--bottom {
     }
 
     .player__wrapper {
-        width: 786px;
-        height: 441px;
+        width: 1184px;
+        height: 666px;
     }
 
     .timeline,
@@ -778,11 +783,11 @@ div.promo__item.promo__item--bottom {
     }
 
     .timeline__controls--left {
-        width: 110px;
+        width: 153px;
     }
 
     .timeline__controls--center {
-        width: 875px;
+        width: 1150px;
     }
 
     .timeline--no-volume .timeline__controls--center {
@@ -799,8 +804,8 @@ div.promo__item.promo__item--bottom {
     }
 
     .timeline__controls--right {
-        width: 140px;
-        padding-left: 18px;
+        width: 114px;
+        padding-left: 0%;
     }
 
     .timeline--no-volume .timeline__controls--right {
@@ -1353,8 +1358,8 @@ div.promo__item.promo__item--bottom {
 @media screen and (max-width: 820px) {
     .cta--side {
         position: absolute;
-        top: -8px;
-        left: 17px;
+        top: 107px;
+        left: 0px;
         height: 100%;
         width: 81.5px;
     }
