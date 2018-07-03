@@ -135,6 +135,7 @@ sub {
     overflow: hidden;
     margin: 0 auto;
     width: 2460px;
+	background-color:#FFFFFF;
     background-repeat: no-repeat;
     background-size: cover;
 }
