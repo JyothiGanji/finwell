@@ -160,7 +160,7 @@ sub {
     left: 0%;
     margin-top: 0%;
     margin-right: 2%;
-	background: url(../images/cta_icons_ie.png);
+	background: url(/images/cta_icons_ie.png);
 }
 
 .fullscreen .cta--side {
