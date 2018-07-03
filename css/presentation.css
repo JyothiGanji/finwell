@@ -36,14 +36,12 @@
 /** Main Styling (for 1080p) **/
 .body {
     background-color: #f0f0f0;
-    font-family: "OpenSans_Regular", Arial;
+    font-family: "OpenSans_Regular", Arial;.
 }
 
 .top-wrapper {
-    background-color: #f2f2f2;
-    background-image: url("../images/background_tile.png");
-	 background-repeat: no-repeat;
-    /**background-image: url(https://thumbs.dreamstime.com/b/decorative-red-bow-red-ribbon-black-background-d-realistic-vector-illustration-decorative-red-bow-red-ribbon-black-112149536.jpg);**/
+      background-image: "images/background_tile.jpg";
+   /** background-color: #bababa;**/
     /**background: linear-gradient(to bottom right, #04c2f2, #8fea6b);**/
 }
 
@@ -164,7 +162,7 @@
 
 .cta__button {
     color: #fff;
-    background-color:#000000;
+    background-color: #0a0a0a;
     border-radius: 0;
     border: 0;
     font-family: Arial;
@@ -187,7 +185,7 @@ border-bottom-right-radius: 6%;
 .cta__button:hover,
 .cta__button:active,
 .focusable.cta__button:focus {
-    background-color: #07070763;
+    background-color: #0a0a0a;
 }
 
 .fullscreen .cta--side .cta__button {
@@ -228,7 +226,7 @@ border-bottom-right-radius: 6%;
     margin-bottom: 25px;
     width: 60px;
     height: 60px;
-    background: url("../images/cta_icons_ie.png") no-repeat;
+    background: url("../images/cta_icons.png") no-repeat;
     background-position: var(--cta-bgX) var(--cta-bgY);
     background-size: 500% 300%;
 }
@@ -266,11 +264,10 @@ border-bottom-right-radius: 6%;
 
 .player {
    /** background-color: #dbdbdb; **/
-   width:80%;
 }
 
 .player__splash {
-    opacity: 0.5;
+    opacity: 0;
     background-color: #000;
     cursor: pointer;
 }
@@ -341,8 +338,8 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline {
-    color:#FFFFFF;
-    background-color:#f0f0f0;
+    color: #fff;
+    background-color:#0a0a0a;
     font-size: 20px;
 }
 
@@ -351,12 +348,12 @@ border-bottom-right-radius: 6%;
 } **/
 
 .timeline__controls {
-    background-color:#000000;
-    border-color: #E7E7E7;
+    background-color:#0a0a0a;
+    border-color: #dbdbdb;
 }
 
 .timeline__button {
-    background-color:#000000;
+    background-color: #0a0a0a;
     cursor: pointer;
 }
 
@@ -377,11 +374,11 @@ border-bottom-right-radius: 6%;
 
 .timeline__button--settings,
 .timeline__button--fullscreen {
-    width: 30px;
+    width: 60px;
 }
 
 .timeline__button--volume {
-    width: 30px;
+    width: 45px;
 }
 
 .timeline__button-icon {
@@ -390,8 +387,8 @@ border-bottom-right-radius: 6%;
 
     display: block;
     margin: 0 auto;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background: url("../images/timeline_controls.png") no-repeat;
     background-position-y: 50%;
     background-position: var(--timeline-bgX) var(--timeline-bgY);
@@ -417,8 +414,8 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline__button-icon--play {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 26px;
     background-position-x: calc((100%/26) * 0);
     --timeline-bgX: calc((100%/26) * 0);
 }
@@ -437,7 +434,7 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline__button-icon--skip-forward {
-    margin-left: 0px;
+    margin-left: 8px;
     background-position-x: calc((100%/26) * 3);
     --timeline-bgX: calc((100%/26) * 3);
 }
@@ -537,11 +534,11 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline-progress-hover {
-    background-color: #089fc3;
+    background-color: #5e3820;
 }
 
 .timeline-progress {
-    background-color: #078bab;
+    background-color: #704a1e;
 }
 
 .timeline-chapters--seen {
@@ -570,12 +567,12 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline-volume__bg {
-    background-color:#E7E7E7;
+    background-color: #717171;
     border-radius: 5px;
 }
 
 .timeline-volume__level {
-    background-color:#fff;
+    background-color: #704a1e;
     border-radius: 5px;
 }
 
@@ -587,7 +584,7 @@ border-bottom-right-radius: 6%;
 .timeline-volume__ball:hover,
 .timeline-volume__ball:active,
 .focusable.timeline-volume__ball:focus {
-    background-color: #E7E7E7;
+    background-color: #fff;
 }
 
 .timeline__settings-popout,
@@ -600,7 +597,7 @@ border-bottom-right-radius: 6%;
     padding: 16px;
     width: 220px;
     height: 210px;
-    background-color: #E7E7E7;
+    background-color: #2e2e2e;
     font-size: 17px;
 }
 
