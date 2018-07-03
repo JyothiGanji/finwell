@@ -285,6 +285,8 @@ sub {
 .promo--side {
     float: right;
     width: 270px;
+	    margin-top: -388px;
+    margin-right: 35px;
 }
 
 .fullscreen .promo--side {
