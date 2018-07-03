@@ -35,12 +35,13 @@
 
 /** Main Styling (for 1080p) **/
 .body {
+	 background-image: "images/background_tile.png";
     background-color: #f0f0f0;
     font-family: "OpenSans_Regular", Arial;.
 }
 
 .top-wrapper {
-      background-image: "images/background_tile.png";
+     
    /** background-color: #bababa;**/
     /**background: linear-gradient(to bottom right, #04c2f2, #8fea6b);**/
 }
