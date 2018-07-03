@@ -752,7 +752,13 @@ border-bottom-right-radius: 6%;
         line-height: 50px;
         font-size: 20px;
     }
-
+    .promo--side .promo__image{
+		width:100%;
+		height:100%;
+	    	      
+    margin-top: -597px;
+	}
+    
     .cta__icon {
         margin-bottom: 15px;
         width: 25px;
@@ -764,7 +770,7 @@ border-bottom-right-radius: 6%;
     }
 
     .cta--side .cta__button {
-        font-size: 16px;
+        font-size: 10px;
     }
 
     .player__splash-image {
@@ -774,17 +780,17 @@ border-bottom-right-radius: 6%;
     }
 
     .timeline {
-        font-size: 12px;
-		width:1189px;
+        font-size: 16px;
+        
     }
 
     .timeline__button--skip-back,
     .timeline__button--skip-forward {
-        width: 25px;
+        width: 47px;
     }
 
     .timeline__button--play-pause {
-        width: 42px;
+        width: 45px;
     }
 
     .fullscreen .timeline__button-icon {
@@ -850,6 +856,13 @@ border-bottom-right-radius: 6%;
         width: 28px;
         height: 28px;
     }
+	
+	.promo--side .promo__image{
+		width:100%;
+		height:100%;
+		
+    		margin-top: 74px;
+     }
 
     .social--top-right .social__icon {
         margin-right: 4px;
@@ -990,6 +1003,12 @@ border-bottom-right-radius: 6%;
         width: 26px;
         height: 26px;
     }
+	.promo--side .promo__image{
+		width:100%;
+		height:100%;
+		 
+    		margin-top: 38px;
+	}
 
     .social--top-right .social__icon {
         margin-right: 3px;
@@ -1011,8 +1030,8 @@ border-bottom-right-radius: 6%;
 
     .cta__icon {
         margin-bottom: 6px;
-        width: 15px;
-        height: 15px;
+        width: 10px;
+        height: 11px;
     }
 
     .fullscreen .cta__icon {
@@ -1116,6 +1135,11 @@ border-bottom-right-radius: 6%;
     .fullscreen .cta--side .cta__label {
         font-size: 12px;
     }
+	.promo--side .promo__image{
+		width:100%;
+		height:100%;
+	    	   
+	}
 
     .timeline__button--skip-back,
     .timeline__button--skip-forward {
@@ -1148,6 +1172,9 @@ border-bottom-right-radius: 6%;
     .timeline__button-icon--skip-forward {
         margin-left: 4px;
     }
+	.timeline {
+    font-size: 8px;
+}
 
     .timeline-progress-indicator-ball {
         background-color: #fff;
@@ -1217,7 +1244,11 @@ border-bottom-right-radius: 6%;
     .header__logo {
       /**  width: 300px; **/
     }
-
+.promo--side .promo__image{
+		width:100%;
+		height:100%;
+	    	    
+	}
     .player__splash-image {
         margin-top: calc((100% * (9/16)) / 2 - (78px / 2)); /* Calculate the margin-top based on half the video height, minus half the height of the splash icon */
         width: 75px;
@@ -1256,7 +1287,11 @@ border-bottom-right-radius: 6%;
         margin-bottom: 3px;
     }
 }
-
+.promo--side .promo__image{
+		width:100%;
+		height:100%;
+	    	    
+	}
 @media screen and (max-width: 375px) and (orientation: portrait) {
     .timeline__button-icon--skip-forward {
         margin-left: 0px;
@@ -1268,6 +1303,9 @@ border-bottom-right-radius: 6%;
     .cta__icon {
         margin-bottom: 2px;
     }
+		.timeline {
+    font-size: 4px;
+}
 }
 
 /** General rules for devices which don't support the hover state **/
@@ -1283,6 +1321,7 @@ border-bottom-right-radius: 6%;
         background-position-y: 0;
         --social-bgY: 0;
     }
+
 
     .fullscreen .cta--side .cta__button:hover {
         left: -130%;
