@@ -1011,7 +1011,7 @@ var SocialIcons = {
         var html = "";
 
         $.each(SocialIcons.icons, function(key, icon) {
-            html += "<a href='#' class='social__icon social__icon--" + key + "' data-icon='" + key + "'>";
+           /**html += "<a href='#' class='social__icon social__icon--" + key + "' data-icon='" + key + "'>";**/
             html += "<span class='sr-only translate' data-translate='SocialIcon-" + key + "'>" + icon.text + "</span>";
             html += "</a>";
         });
