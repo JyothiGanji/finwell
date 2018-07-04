@@ -136,7 +136,7 @@ sub {
     overflow: hidden;
     margin: 0 auto;
     width: 2460px;
-	background-color:#fffff;
+    background-color:"white";
     background-repeat: no-repeat;
     background-size: cover;
 }
