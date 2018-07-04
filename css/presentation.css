@@ -41,7 +41,8 @@
 }
 
 .top-wrapper {
-        
+        background-image:url(../images/background_tile.png);
+	background-repeat:no-repeat;
    /** background-color: #bababa;**/
     /**background: linear-gradient(to bottom right, #04c2f2, #8fea6b);**/
 }
