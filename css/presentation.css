@@ -535,15 +535,15 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline-progress-hover {
-    background-color: #5e3820;
+    background-color:#2dc6ed;
 }
 
 .timeline-progress {
-    background-color: #704a1e;
+    background-color: #24cdd6;
 }
 
 .timeline-chapters--seen {
-    color: #bfbfbf;
+    color: #24cdd6;
 }
 
 .timeline-contrast .timeline-chapters__label {
