@@ -338,6 +338,8 @@ border-bottom-right-radius: 6%;
 .focusable.promo__link:focus {
     text-decoration: underline;
 }
+#buy_btn{
+	background:url("../images/promo-buy-now-btn.png");
 
 .timeline {
     color: #fff;
