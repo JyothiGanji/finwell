@@ -1534,3 +1534,6 @@ div.promo__item.promo__item--bottom {
 .fullscreen .top-wrapper--no-promo .timeline__controls--center {
     width: 75%;
 }
+body.jplayer-timeline-disabled #wrapper_container {
+    max-width: calc((95vh / 9) * 16);
+}
