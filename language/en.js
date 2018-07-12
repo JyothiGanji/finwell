@@ -112,7 +112,7 @@ var Translations = {
             "states": [
                 {
                     "cardId": "START",
-                    "width":15
+                    "width":13.7013%
                 }
             ]
         },
@@ -121,11 +121,11 @@ var Translations = {
             "states": [
                 {
                     "cardId": "6f3f4533",
-                    "width": 10
+                    "width":6.7013%
                 },
                 {
                     "cardId": "acae2868",
-                    "width": 10
+                    "width": 6.7013%
                 }
             ]
         },
@@ -134,7 +134,7 @@ var Translations = {
             "states": [
                 {
                     "cardId": "42bca2b4",
-                    "width": 15
+                    "width":27.7013
                 }
                 
             ]
@@ -143,7 +143,7 @@ var Translations = {
             "label": "Active&sharing",
              "states": [
                 {
-                    "width": 15
+                    "width": 16.7013%
                 }
                 
             ]
@@ -152,7 +152,7 @@ var Translations = {
             "label": "pricing",
             "states": [
                 {
-                    "width": 15
+                    "width":11.7013%
                 }
                 
             ]
@@ -162,7 +162,7 @@ var Translations = {
             "states": [
                 {
                     "cardId": "6dd8eb8e",
-                    "width": 10
+                    "width": 9.7013
                 }
                 
             ]
