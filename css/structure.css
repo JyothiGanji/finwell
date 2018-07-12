@@ -275,7 +275,7 @@ sub {
     position: relative;
     width: 73%;
     height: 72.9%;
-    top: 0%;
+    top: -5%;
     left: 7%;
     box-shadow: 0 10px 22px -5px black;
 }
