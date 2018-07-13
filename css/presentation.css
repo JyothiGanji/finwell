@@ -1293,8 +1293,8 @@ border-bottom-right-radius: 6%;
 .promo--side .promo__image{
 		width:127%;
 		height:187%;
-	    	    
-	}
+		margin-top: 2%;
+	   	}
 @media screen and (max-width: 375px) and (orientation: portrait) {
     .timeline__button-icon--skip-forward {
         margin-left: 0px;
