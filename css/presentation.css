@@ -311,6 +311,17 @@ border-bottom-right-radius: 6%;
     border-radius: 3px 3px 3px 3px;
 }
 
+.promo__item promo__item--1
+	{
+	position: relative;
+	}
+	
+.promo__item promo__item--2{
+	position: absolute;
+    	height: 13%;
+    	bottom: -101%;
+}
+
 .promo__item:hover {
     background-color: #07070763;
 }
