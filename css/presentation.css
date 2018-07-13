@@ -267,6 +267,7 @@ border-bottom-right-radius: 6%;
 
 .player {
    /** background-color: #dbdbdb; **/
+	position: relative;
 }
 
 .player__splash {
