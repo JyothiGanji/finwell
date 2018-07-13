@@ -932,7 +932,7 @@ border-bottom-right-radius: 6%;
 
     .timeline__button--skip-back,
     .timeline__button--skip-forward {
-        width: 57px;
+        width: 40px;
     }
 
     .timeline__button--play-pause {
