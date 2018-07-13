@@ -94,6 +94,13 @@ var Translations = {
             "desktopImage": "./images/promo_portrait.png",
             "mobileImage": "./images/promo_landscape.png"
         },
+        "promo2": {
+            "trackingName": "promo1",
+            "url": "http://example.com/",
+            "label": "Promo (below)",
+            "desktopImage": "./images/promo-buy-now-btn.png",
+            "mobileImage": "./images/promo-buy-now-btn.png"
+        }
        
     },
 
