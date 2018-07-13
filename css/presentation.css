@@ -788,11 +788,11 @@ border-bottom-right-radius: 6%;
 
     .timeline__button--skip-back,
     .timeline__button--skip-forward {
-        width: 47px;
+        width: 30px;
     }
 
     .timeline__button--play-pause {
-        width: 45px;
+        width: 34px;
     }
 
     .fullscreen .timeline__button-icon {
@@ -936,7 +936,7 @@ border-bottom-right-radius: 6%;
     }
 
     .timeline__button--play-pause {
-        width: 51px;
+        width: 40px;
     }
 
     .timeline__button--settings,
