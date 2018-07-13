@@ -141,7 +141,7 @@ var Translations = {
             "states": [
                 {
                     "cardId": "42bca2b4",
-                    "width":20
+                    "width":15
                 }
                 
             ]
@@ -150,7 +150,7 @@ var Translations = {
             "label": "Active&sharing",
              "states": [
                 {
-                    "width": 20
+                    "width":15
                 }
                 
             ]
