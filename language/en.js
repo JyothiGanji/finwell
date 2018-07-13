@@ -159,7 +159,7 @@ var Translations = {
             "label": "pricing",
             "states": [
                 {
-                    "width":15
+                    "width":10
                 }
                 
             ]
