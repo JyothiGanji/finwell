@@ -89,13 +89,12 @@ var Translations = {
     "PromoSettings": {
         "promo1": {
             "trackingName": "promo1",
-            "url": "http://example.com/",
-            "label": "Promo (Top)",
+             "label": "Promo (Top)",
             "desktopImage": "./images/promo_portrait.png",
             "mobileImage": "./images/promo_landscape.png"
         },
         "promo2": {
-            "trackingName": "promo1",
+            "trackingName": "promo2",
             "url": "http://example.com/",
             "label": "Promo (Below)",
             "desktopImage": "./images/promo-buy-now-btn.png",
