@@ -1939,6 +1939,7 @@ var VolumeSlider = {
     initialise: function(startingVolume) {
         if (Utils.userAgentInList(navigator.userAgent, VolumeSlider.disabledDevices)) {
             VolumeSlider.disable();
+         
             return;
         }
 
