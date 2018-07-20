@@ -295,7 +295,7 @@ sub {
     margin: 0 auto;
     
     width: 400px;
-    height: 155px;
+    height: 45px;
 }
 
 .promo--bottom .promo__item--bottom {
@@ -313,17 +313,7 @@ sub {
     margin-bottom: 8px;
 }
 
-.promo--bottom .promo__item {
-    margin: 0 auto;
-    margin-bottom: 10px;
-    width: 400px;
-    height: 155px;
-}
 
-.promo--bottom .promo__item--bottom {
-    margin-bottom: 25px;
-    display: none;
-}
 
 .promo__image {
     width: 100%;
