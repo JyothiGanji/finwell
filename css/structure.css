@@ -291,17 +291,14 @@ sub {
     display: none;
 }
 
-.promo--bottom .promo__item {
-    margin: 0 auto;
-    
-    width: 400px;
-    height: 45px;
-}
-
-.promo--bottom .promo__item--bottom {
-    margin-bottom: 25px;
+.promo--bottom {
     display: none;
-}
+
+ }
+ 
+.div.promo__item.promo__item--bottom {
+
+ }
 
 
 .promo--side .promo__item {
