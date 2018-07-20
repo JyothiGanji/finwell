@@ -313,7 +313,11 @@ border-bottom-right-radius: 6%;
 .promo__item:hover {
     background-color: #07070763;
 }
-
+.promo__item promo__item--2.promo__image{
+   width: 118px;
+    height: 40px;
+}
+	
 
 .promo--side .promo__image {
     background-size: 100% 100%;
