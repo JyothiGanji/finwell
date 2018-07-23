@@ -44,7 +44,7 @@ sub {
 
 .header__logo {
     padding: 0px 0px 20px 10px;
-    margin-right:40%
+    margin-left:-108%;
 }
 
 .header__text {
