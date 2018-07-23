@@ -276,7 +276,7 @@ sub {
     width: 960px;
     height: 540px;
     top: -2%;
-    left: 1%;
+    left: 0%;
     box-shadow: 0 10px 22px -5px black;
 }
 
