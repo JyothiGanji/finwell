@@ -72,6 +72,47 @@
             }
         })();
     </script>
+	<style>
+	.promo__item promo__item--2 promo__link jsPromoLink promo__image{
+    height: 25%;
+	}
+.jplayer-timeline-disabled {
+	background-color: black;
+	padding: 2px;
+}
+.fa {
+	width: 15px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	float: right;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+
+.fa-google {
+	background: #dd4b39;
+	color: white;
+}
+
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+}
+</style>
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -86,15 +127,13 @@
        
         <main id="jsMain" class="main" style="width:1000px;height:530">
 		 <header id="jsHeader" class="header">
-            <div class="social social--top social--expanded jsSocialIcons" id="jsSocialIconsTop">
-                <a href="#" class="social__icon social__icon--collapse" id="jsSocialIconTopCollapse">
-                    <span class="sr-only translate" data-translate="CollapseText">Collapse</span>
-                </a>
-                <a href="#" class="social__icon social__icon--expand" id="jsSocialIconTopExpand">
-                    <span class="sr-only translate" data-translate="ExpandText">Expand</span>
-                </a>
-            </div>
-            
+             <span id='soc_iocns' style="margin-right:0%" > 
+				<a href="http://www.facebook.com"class="fa fa-facebook"></a>
+				<a href="http://www.twitter.com"class="fa fa-twitter"></a> 
+				<a href="http://www.google.com"class="fa fa-google"></a> 
+				<a href="http://www.linkedin.com"class="fa fa-linkedin"></a>
+
+			</span>
             <br class="clearfix" />
 
             <img class="header__logo" src="./images/logo.png" alt="Logo">
