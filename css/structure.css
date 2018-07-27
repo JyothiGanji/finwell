@@ -908,8 +908,8 @@ div.promo__item.promo__item--bottom {
     }
 
     .player__wrapper {
-        width: 960px;
-        height: 540px;
+        /**width: 960px;
+        height: 540px;**/
     }
 
     .timeline__controls--left {
@@ -1062,8 +1062,8 @@ div.promo__item.promo__item--bottom {
     }
 
     .player__wrapper {
-        width: 640px;
-        height: 360px;
+        /**width: 640px;
+        height: 360px;**/
     }
 
     .timeline,
