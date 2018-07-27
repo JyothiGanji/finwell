@@ -1,4 +1,6 @@
 /** Global Styling **/
+
+
 * {
     box-sizing: border-box;
 }
@@ -39,8 +41,10 @@ sub {
 }
 
 .header__logo {
-    padding: 0px;
+   
     max-width: 100%;
+    margin-left: 36%;
+    margin-bottom: -5%;
 }
 
 .header__text {
@@ -80,7 +84,7 @@ sub {
 .social--top-right {
     right: 0;
     left: auto;
-    padding: 0px 0 0 8px;
+    padding: 20px 0 0 8px;
 }
 
 .fullscreen .social--top-right {
@@ -132,7 +136,7 @@ sub {
     overflow: hidden;
     margin: 0 auto;
     width: 2460px;
-    background-color: white;
+    background-image: url(https://raw.githubusercontent.com/karthik547/RTC_DEMO-RESOLUTION-1080/master/images/background_tile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -154,8 +158,8 @@ sub {
     width: 270px;
     min-height: 1px;
     position: relative;
-    left: 6%;
-    margin-top: 1%;
+    left: 3%;
+    margin-top: 7%;
     margin-right: -2%;
 }
 
@@ -223,7 +227,9 @@ sub {
 }
 
 .cta--side.cta--5 .cta__button {
-    height: 212px;
+    height: 50px;
+    width:87px;
+    margin-left:50%;
 }
 
 .fullscreen .cta--side.cta--5 .cta__button {
@@ -246,7 +252,6 @@ sub {
 
 .player {
     float: left;
-	margin-left:50px;
 }
 
 .fullscreen .player {
@@ -267,11 +272,10 @@ sub {
 
 .player__iframe {
     position: relative;
-	margin-left:0%;
-    width: 80%;
-    height: 80%;
-    top: 4%;
-    left: 13%;
+    width: 75%;
+    height: 75%;
+    top: 13.2%;
+    left:-10%;
     box-shadow: 0 10px 22px -5px black;
 }
 
@@ -285,6 +289,8 @@ sub {
 .promo--side {
     float: left;
     width: 270px;
+    margin-top: 14%;
+    margin-left: -11%;
 }
 
 .fullscreen .promo--side {
@@ -301,7 +307,7 @@ div.promo__item.promo__item--bottom {
 
 .promo--side .promo__item {
     width: 100%;
-    height: 536px;
+    height: 167px;
 }
 
 .promo--side .promo__item--top {
@@ -710,7 +716,7 @@ div.promo__item.promo__item--bottom {
     .header,
     .main,
     .footer {
-        width:1074px;
+        width: 1640px;
     }
 
     .top-wrapper--no-cta .header,
@@ -725,12 +731,12 @@ div.promo__item.promo__item--bottom {
     .top-wrapper--no-cta.top-wrapper--no-promo .header,
     .top-wrapper--no-cta.top-wrapper--no-promo .main,
     .bottom-wrapper--no-cta.bottom-wrapper--no-promo .footer {
-        width: 1080px;
+        width: 1280px;
     }
 
     .cta--side,
     .promo--side {
-        width: 115px;
+        width: 130px;
     }
 
     .cta--side.cta--1 .cta__button {
@@ -750,7 +756,7 @@ div.promo__item.promo__item--bottom {
     }
 
     .cta--side.cta--5 .cta__button {
-        height: 78px;
+        height: 100px;
     }
 
     .promo--side .promo__item {
@@ -762,8 +768,8 @@ div.promo__item.promo__item--bottom {
     }
 
     .player__wrapper {
-        width: 786px;
-        height: 441px;
+        width: 1280px;
+        height: 720px;
     }
 
     .timeline,
@@ -776,11 +782,11 @@ div.promo__item.promo__item--bottom {
     }
 
     .timeline__controls--left {
-        width: 110px;
+        width: 130px;
     }
 
     .timeline__controls--center {
-        width: 875px;
+        width: 1403px;
     }
 
     .timeline--no-volume .timeline__controls--center {
@@ -797,8 +803,8 @@ div.promo__item.promo__item--bottom {
     }
 
     .timeline__controls--right {
-        width: 140px;
-        padding-left: 18px;
+        width: 83px;
+        padding-left: 0%;
     }
 
     .timeline--no-volume .timeline__controls--right {
