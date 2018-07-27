@@ -756,7 +756,7 @@ div.promo__item.promo__item--bottom {
     }
 
     .cta--side.cta--5 .cta__button {
-        height: 100px;
+        /**height: 100px;**/
     }
 
     .promo--side .promo__item {
