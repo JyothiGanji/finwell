@@ -337,6 +337,7 @@ div.promo__item.promo__item--bottom {
     overflow: visible;
     margin: 0 auto;
     padding: 0;
+    width:86%
 }
 
 .timeline__cover {
