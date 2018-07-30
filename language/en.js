@@ -98,7 +98,8 @@ var Translations = {
             "trackingName": "promo2",
             "url": "http://example.com/",
             "label": "Promo (Below)",
-            "height": "25%",
+             "width": "130px",
+             "height": "40px",
             "desktopImage": "./images/promo-buy-now-btn.png",
             "mobileImage": "./images/promo_lanedscape.png"
         }
