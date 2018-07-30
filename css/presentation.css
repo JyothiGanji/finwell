@@ -303,12 +303,12 @@ border-bottom-right-radius: 6%;
 }
 
 .promo__item {
-    background-color: #271818a8;
+    /**background-color: #271818a8;**/
     border-radius: 3px 3px 3px 3px;
 }
 
 .promo__item:hover {
-    background-color: #07070763;
+   /** background-color: #07070763;**/
 }
 
 
@@ -534,11 +534,11 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline-progress-hover {
-    background-color: #5e3820;
+   /** background-color: #5e3820;**/
 }
 
 .timeline-progress {
-    background-color: #704a1e;
+    background-color:#3fcae2;
 }
 
 .timeline-chapters--seen {
