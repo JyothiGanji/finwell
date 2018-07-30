@@ -430,7 +430,7 @@ div.promo__item.promo__item--bottom {
 
 .timeline__button {
     float: left;
-    margin: 0;
+    margin-left:-2%;
     padding: 0;
     height: 100%;
     border: 0;
