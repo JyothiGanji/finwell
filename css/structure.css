@@ -338,7 +338,6 @@ div.promo__item.promo__item--bottom {
     overflow: visible;
     margin: 0 auto;
     padding: 0;
-    width:86%
 }
 
 .timeline__cover {
@@ -359,8 +358,7 @@ div.promo__item.promo__item--bottom {
 
 .timeline,
 .timeline__controls {
-        height: 80px; 
-	width:83%;
+    height: 80px;
 }
 
 .fullscreen .timeline {
@@ -380,7 +378,7 @@ div.promo__item.promo__item--bottom {
 
 .timeline__controls--left {
     width: 335px;
-    border-right: 5px solid;
+    border-right: 1px solid;
 }
 
 .fullscreen .timeline__controls--left {
@@ -412,7 +410,7 @@ div.promo__item.promo__item--bottom {
 
 .timeline__controls--right {
     width: 405px;
-    border-left: 5px solid;
+    border-left: 1px solid;
 }
 
 .fullscreen .timeline__controls--right {
@@ -431,7 +429,7 @@ div.promo__item.promo__item--bottom {
 
 .timeline__button {
     float: left;
-    margin-left:-2%;
+    margin: 0;
     padding: 0;
     height: 100%;
     border: 0;
@@ -443,7 +441,7 @@ div.promo__item.promo__item--bottom {
 }
 
 .timeline--no-volume .timeline__controls--right .timeline__button {
-    float:none;
+    float: none;
 }
 
 .timeline-buffering {
@@ -472,12 +470,14 @@ div.promo__item.promo__item--bottom {
 }
 
 .timeline-progress-hover,
-.timeline-progress {
+.timeline-progress 
+{
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
-}
+    height: 82px;
+    width : 24px;
+ }
 
 .timeline-progress-hover {
     z-index: 10;
@@ -519,7 +519,8 @@ div.promo__item.promo__item--bottom {
 }
 
 .timeline-chapters__chapter,
-.timeline-active-state__label {
+.timeline-active-state__label 
+{
     overflow: hidden;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -527,7 +528,9 @@ div.promo__item.promo__item--bottom {
     user-select: none;
     white-space: nowrap;
     text-overflow: ellipsis;
-
+    font-size: 13px;
+    font-family: DINMedium, Arial, sans-serif;
+    text-transform: uppercase;
     -webkit-touch-callout: none;
     -khtml-user-select: none;
 }
@@ -538,7 +541,7 @@ div.promo__item.promo__item--bottom {
     display: inline-block;
     float: left;
     height: 100%;
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .timeline-active-state__label {
@@ -553,7 +556,6 @@ div.promo__item.promo__item--bottom {
     float: left;
     width: 235px;
     height: 100%;
-	float:vertical;
 }
 
 .timeline--no-volume .timeline-volume,
@@ -564,30 +566,40 @@ div.promo__item.promo__item--bottom {
 .fullscreen .timeline-volume {
     width: calc(100% - 165px);
 }
+
+.timeline__controls--right-no-fs .timeline-volume {
+    width: 275px;
+}
+
 .timeline-volume div {
     cursor: pointer;
 }
 
-.timeline-volume__bg {
+.timeline-volume__bg 
+{
     margin-top: 35px;
-    width: 100%;
-    height: 10px;
+    width: 115%;
+    height: 23px;
 }
 
-.fullscreen .timeline-volume__bg {
+.fullscreen .timeline-volume__bg 
+{
     margin-top: calc(2.5vh - 5px);
 }
 
-.fullscreen.less-16-9 .timeline-volume__bg {
+.fullscreen.less-16-9 .timeline-volume__bg 
+{
     margin-top: calc((2.5vw * 9/16) - 5px);
 }
 
-.timeline-volume__container {
+.timeline-volume__container 
+{
     position: relative;
     width: 227px;
 }
 
-.fullscreen .timeline-volume__container {
+.fullscreen .timeline-volume__container 
+{
     width: calc(100% - 10px);
 }
 
@@ -595,14 +607,15 @@ div.promo__item.promo__item--bottom {
     width: 267px;
 }
 
-.timeline-volume__level {
+.timeline-volume__level 
+{
     position: absolute;
     z-index: 10;
-    top: -10px;
-    left: 0;
+    top: -15px;
+    left: 7px;
     padding-left: 10px;
     width: 50%;
-    height: 10px;
+    height: 7px;
 }
 
 .timeline-volume__ball {
@@ -623,10 +636,6 @@ div.promo__item.promo__item--bottom {
 .timeline__settings-cc,
 .timeline__settings-quality {
     display: none;
-}
-
-.chapter-button {
-    display: inline-block;
 }
 
 .footer {
