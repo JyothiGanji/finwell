@@ -139,8 +139,8 @@ sub {
     background-color:#ffffff;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity:0.9;
-	height:800px;
+    opacity:0.9; 
+    height:40%;
 }
 
 .fullscreen .main,
