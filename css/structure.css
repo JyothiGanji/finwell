@@ -634,8 +634,8 @@ div.promo__item.promo__item--bottom {
 }
 
 .footer {
-    display: block;
-    margin: 0px auto;
+     display: block;
+     margin: 82px 8%;
     / padding-top: 30px; /
     / padding-bottom: 50px; /
     width: 2460px;
