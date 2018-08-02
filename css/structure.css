@@ -44,7 +44,7 @@ sub {
    
     max-width: 100%;
     margin-right:55%;
-    margin-bottom: -4%;
+    margin-bottom:0%;
 }
 
 .header__text {
