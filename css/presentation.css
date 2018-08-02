@@ -573,6 +573,8 @@ border-bottom-right-radius: 6%;
 .timeline-volume__bg {
     background-color: #717171;
     border-radius: 5px;
+    margin-top: 22%;
+    margin-left: -35%;
 }
 
 .timeline-volume__level {
