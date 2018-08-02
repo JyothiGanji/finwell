@@ -140,6 +140,7 @@ sub {
     background-repeat: no-repeat;
     background-size: cover;
     opacity:0.9;
+	height:800px;
 }
 
 .fullscreen .main,
