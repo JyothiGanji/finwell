@@ -329,6 +329,7 @@ div.promo__item.promo__item--bottom {
 .promo__image {
     width: 110%;
     height: 152%;
+    margin-left: -18%;
     background-repeat: no-repeat;
 }
 
