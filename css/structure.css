@@ -389,7 +389,7 @@ div.promo__item.promo__item--bottom {
 
 .timeline__controls--center {
     position: relative;
-    width: 1720px;
+    width:74%;
 }
 
 .fullscreen .timeline__controls--center {
@@ -789,7 +789,7 @@ div.promo__item.promo__item--bottom {
     }
 
     .timeline__controls--center {
-        width: 1403px;
+        /**width: 1403px;**/
     }
 
     .timeline--no-volume .timeline__controls--center {
