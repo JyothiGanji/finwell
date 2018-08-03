@@ -642,6 +642,16 @@ div.promo__item.promo__item--bottom {
     / padding-top: 30px; /
     / padding-bottom: 50px; /
     width: 2460px;
+	
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 83%;
+   /* background-color: white; */
+   color: #050505;
+   text-align: center;
+   margin-bottom: 0%;
+
 }
 
 .footer__pblogo {
